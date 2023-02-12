@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <title>Visage Computer Institute - Register</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <main>
+                <div class="logo">
+                    <span class="visage">
+                        <span>V</span>
+                        <span>I</span>
+                        <span>S</span>
+                        <span>A</span>
+                        <span>G</span>
+                    </span>
+                    <span>Computer Institute</span>
+                </div>
+    
+                <a href="/reg" class="btn">
+                    <span>Get Started</span>
+                    <span class="icon"><i class="fas fa-chevron-right"></i></span>
+                </a>
+            </main>
+        </div>
+    </header>
+
+    <section class="reg">
+        <div class="container">
+            <div class="main-title">
+                <span class="title">course registration</span>
+                <h1>
+                    Fill
+                    this registration form
+                </h1>
+            </div>
+            <br><br><br>
+            <form action="">
+                <div class="data">
+                    <label for="course">Select a Course</label>
+                    <select name="course" id="course">
+                        <option value="" selected disabled></option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Graphic Design">Graphic Design</option>
+                        <option value="Networking">Networking</option>
+                        <option value="Desktop Publishing">Desktop Publishing</option>
+                        <option value="Computer Appreciation">Computer Appreciation</option>
+                        <option value="Statistical Analysis">Statistical Analysis</option>
+                    </select>
+                </div>
+                
+                <div class="summary"></div>
+
+                <br><br>
+
+                <div class="data">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" name="fullName" id="fullName">
+                </div>
+
+                <div class="group">
+                    <div class="data">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+
+                    <div class="data">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+
+                <br><br>
+
+                <span>Please confirm your details before proceeding</span>
+
+                <br><br>
+                <div class="btn-group">
+                    <a href="/" class="btn">
+                        <span class="icon"><i class="fas fa-times"></i></span>
+                        <span>Cancel</span>
+                    </a>
+
+                    <button class="btn" id="proceed">
+                        <span>Proceed</span>
+                        <span class="icon"><i class="fas fa-chevron-right"></i></span>
+                    </button>
+                </div>
+                
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <main>
+                <div class="contact">
+                    <div class="logo">
+                        <span class="visage">
+                            <span>V</span>
+                            <span>I</span>
+                            <span>S</span>
+                            <span>A</span>
+                            <span>G</span>
+                        </span>
+                        <span>Computer Institute</span>
+                    </div>
+                    <div class="address">
+                        <span>Oke-odo, Tanke,
+                            Ilorin, Kwara state,
+                            Nigeria.</span>
+                    </div>
+                    <br><br>
+                    <div class="email">
+                        <span><i class="fas fa-at"></i></span>
+                        <span>visagecafeilorin@gmail.com</span>
+                    </div>
+                    <div class="phone">
+                        <span><i class="fas fa-phone"></i></span>
+                        <span>+234 706 1002 308</span>
+                        
+                    </div>
+                </div>
+                <div class="connect">
+                    <a href="" class="icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+            </main>
+            <div class="copy">
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="registration.js"></script>
+    <script src="../main.js"></script>
+</body>
