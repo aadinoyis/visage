@@ -534,6 +534,7 @@ section.coaches aside::-webkit-scrollbar { /* WebKit */
     height: auto;
     display: flex;
     padding: 0 2em;
+    margin-bottom: 2em;
 }
 
 .coach figure img {
@@ -580,7 +581,8 @@ section.coaches aside::-webkit-scrollbar { /* WebKit */
 
 .coach ul {
     display: flex;
-    padding: 1em 2em;
+    padding: 0 2em;
+    margin-bottom: 1em;
 }
 
 .coach ul li {
