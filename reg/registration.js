@@ -70,7 +70,7 @@ proceed.addEventListener('click', e => {
 
             var handler = PaystackPop.setup({
     
-                key: 'pk_live_051bf2ba87de29a79afbc3fa7da786e05e2a2957', // Replace with your public key
+                key: 'pk_test_83f33db1f994b16e70279ac70c07601123dcae17', // Replace with your public key
                     
                 email: email.value,
     
